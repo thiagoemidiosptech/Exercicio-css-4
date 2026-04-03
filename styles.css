@@ -1,0 +1,61 @@
+
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(42, 88, 42);
+    color: black;
+    
+}
+
+.cabecalho {
+    font-family: Arial, sans-serif;
+    background-color: #98b978;
+    text-align: center;
+}
+
+.tituloprincipal {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(8, 85, 8);
+    font-size: 32px;
+}
+
+.subtitulo {
+    font-family: Arial, sans-serif;
+    color: rgb(13, 109, 18);
+}
+
+.conteudo {
+    font-family: Arial, sans-serif;
+    background-color: rgb(218, 197, 171);
+}
+
+.tituloprincipaldois {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(107, 88, 4);
+}
+
+.subtitulodois {
+    font-family: Arial, sans-serif;
+    color: burlywood;
+}
+
+.conteudo > p {
+    color: #5f4005;
+    font-size: 42px;
+}
+
+.conteudo > p:nth-of-type(3) {
+    color: purple;
+    vertical-align: sub;
+    font-size: 0.7em;;
+
+}
+
+@media (max-width: 480px) {
+  .container {
+    background-color: #ADD8E6;
+  }
+}
